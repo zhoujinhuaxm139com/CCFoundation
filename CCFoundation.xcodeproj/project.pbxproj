@@ -129,15 +129,39 @@
 		246FF11F26A7E1A8009194C8 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				246FF12026A7E1CF009194C8 /* CCViewController.h */,
-				246FF12126A7E1CF009194C8 /* CCViewController.m */,
+				2488012026A82A1F0080EA51 /* Protocol */,
+				2488011F26A829F80080EA51 /* ViewController */,
+				2488011E26A829E80080EA51 /* NavigationController */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		2488011E26A829E80080EA51 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
 				246FF12426A7E1F5009194C8 /* CCNavigationController.h */,
 				246FF12526A7E1F5009194C8 /* CCNavigationController.m */,
 				2488011926A81F450080EA51 /* CCNavigationControllerIMP.h */,
 				2488011A26A81F450080EA51 /* CCNavigationControllerIMP.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		2488011F26A829F80080EA51 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				246FF12026A7E1CF009194C8 /* CCViewController.h */,
+				246FF12126A7E1CF009194C8 /* CCViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2488012026A82A1F0080EA51 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
 				2488011D26A8206D0080EA51 /* CCNavigationProtocol.h */,
 			);
-			path = UIKit;
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
