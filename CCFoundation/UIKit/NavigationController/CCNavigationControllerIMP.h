@@ -11,7 +11,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CCNavigationControllerIMP : NSObject
-@property (nonatomic,strong) UINavigationController *navigationController;
 @end
 
 NS_ASSUME_NONNULL_END
