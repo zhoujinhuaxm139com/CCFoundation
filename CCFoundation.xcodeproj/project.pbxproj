@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2463A04626CE558500378A6B /* NSDictionary+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 2463A04426CE558500378A6B /* NSDictionary+Safe.h */; };
+		2463A04726CE558500378A6B /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2463A04526CE558500378A6B /* NSDictionary+Safe.m */; };
 		246DAE9426A1378100E9A27B /* CCFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246DAE8A26A1378100E9A27B /* CCFoundation.framework */; };
 		246DAE9926A1378100E9A27B /* CCFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 246DAE9826A1378100E9A27B /* CCFoundationTests.m */; };
 		246DAE9B26A1378100E9A27B /* CCFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 246DAE8D26A1378100E9A27B /* CCFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2463A04426CE558500378A6B /* NSDictionary+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		2463A04526CE558500378A6B /* NSDictionary+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
 		246DAE8A26A1378100E9A27B /* CCFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		246DAE8D26A1378100E9A27B /* CCFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCFoundation.h; sourceTree = "<group>"; };
 		246DAE8E26A1378100E9A27B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 				246DAEAD26A1390300E9A27B /* NSArray+Safe.m */,
 				246DAEB126A13A2E00E9A27B /* NSObject+Swizzle.h */,
 				246DAEB226A13A2E00E9A27B /* NSObject+Swizzle.m */,
+				2463A04426CE558500378A6B /* NSDictionary+Safe.h */,
+				2463A04526CE558500378A6B /* NSDictionary+Safe.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -173,6 +179,7 @@
 			files = (
 				246FF12226A7E1CF009194C8 /* CCViewController.h in Headers */,
 				246DAEA626A1381900E9A27B /* CCTargetProxy.h in Headers */,
+				2463A04626CE558500378A6B /* NSDictionary+Safe.h in Headers */,
 				2488011B26A81F450080EA51 /* CCNavigationControllerIMP.h in Headers */,
 				246DAEB026A1390300E9A27B /* NSArray+Safe.h in Headers */,
 				246DAE9B26A1378100E9A27B /* CCFoundation.h in Headers */,
@@ -282,6 +289,7 @@
 				246DAEB426A13A2E00E9A27B /* NSObject+Swizzle.m in Sources */,
 				246DAEA726A1381900E9A27B /* CCTargetProxy.m in Sources */,
 				246FF12326A7E1CF009194C8 /* CCViewController.m in Sources */,
+				2463A04726CE558500378A6B /* NSDictionary+Safe.m in Sources */,
 				246DAEAF26A1390300E9A27B /* NSArray+Safe.m in Sources */,
 				246FF12726A7E1F5009194C8 /* CCNavigationController.m in Sources */,
 			);

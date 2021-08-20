@@ -15,15 +15,21 @@
 
 -(void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated{
     id<CCNavgationBarAppearnce> obj = (id<CCNavgationBarAppearnce>)viewController;
-    if ([obj respondsToSelector:@selector(hiddenCCNavgationBar)]) {
-        [navigationController setNavigationBarHidden:obj.hiddenCCNavgationBar animated:animated];
+    if ([obj respondsToSelector:@selector(CCHiddenNavgationBar)]) {
+        [navigationController setNavigationBarHidden:obj.CCHiddenNavgationBar animated:animated];
+    }
+    if ([obj respondsToSelector:@selector(CCBarTintColor)]) {
+        [navigationController.navigationBar setBarTintColor:obj.CCBarTintColor];
+    }
+    if ([obj respondsToSelector:@selector(CCBarTintColor)]) {
+        [navigationController.navigationBar setTintColor:obj.CCTintColor];
     }
 }
 
 - (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animate {
     id<CCNavgationBarAppearnce> obj = (id<CCNavgationBarAppearnce>)viewController;
-    if ([obj respondsToSelector:@selector(sideslip)]) {
-        navigationController.interactivePopGestureRecognizer.enabled = obj.sideslip;
+    if ([obj respondsToSelector:@selector(CCSideslip)]) {
+        navigationController.interactivePopGestureRecognizer.enabled = obj.CCSideslip;
     }
 }
 

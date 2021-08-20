@@ -10,41 +10,41 @@
 #import <objc/runtime.h>
 @implementation NSArray (Safe)
 +(void)load{
-#ifdef DEBUG
-    
-#else
+//#ifdef DEBUG
+//
+//#else
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        [objc_getClass("__NSArray0") swizzleMethod:@selector(objectAtIndex:) swizzledSelector:@selector(emptyObjectIndex:)];
-        [objc_getClass("__NSArrayI") swizzleMethod:@selector(objectAtIndex:) swizzledSelector:@selector(arrObjectIndex:)];
-        [objc_getClass("__NSArrayM") swizzleMethod:@selector(objectAtIndex:) swizzledSelector:@selector(mutableObjectIndex:)];
-        [objc_getClass("__NSArrayM") swizzleMethod:@selector(insertObject:atIndex:) swizzledSelector:@selector(mutableInsertObject:atIndex:)];
+        [objc_getClass("__NSArray0") swizzleMethod:@selector(objectAtIndex:) swizzledSelector:@selector(safe_emptyObjectIndex:)];
+        [objc_getClass("__NSArrayI") swizzleMethod:@selector(objectAtIndex:) swizzledSelector:@selector(safe_arrayObjectIndex:)];
+        [objc_getClass("__NSArrayM") swizzleMethod:@selector(objectAtIndex:) swizzledSelector:@selector(safe_mutableObjectIndex:)];
+        [objc_getClass("__NSArrayM") swizzleMethod:@selector(insertObject:atIndex:) swizzledSelector:@selector(safe_mutableInsertObject:atIndex:)];
     });
-#endif
+//#endif
     
 }
 
-- (id)emptyObjectIndex:(NSInteger)index{
+- (id)safe_emptyObjectIndex:(NSInteger)index{
     return nil;
 }
 
-- (id)arrObjectIndex:(NSInteger)index{
+- (id)safe_arrayObjectIndex:(NSInteger)index{
     if (index >= self.count || index < 0) {
         return nil;
     }
-    return [self arrObjectIndex:index];
+    return [self safe_arrayObjectIndex:index];
 }
 
-- (id)mutableObjectIndex:(NSInteger)index{
+- (id)safe_mutableObjectIndex:(NSInteger)index{
     if (index >= self.count || index < 0) {
         return nil;
     }
-    return [self mutableObjectIndex:index];
+    return [self safe_mutableObjectIndex:index];
 }
 
-- (void)mutableInsertObject:(id)object atIndex:(NSUInteger)index{
+- (void)safe_mutableInsertObject:(id)object atIndex:(NSUInteger)index{
     if (object) {
-        [self mutableInsertObject:object atIndex:index];
+        [self safe_mutableInsertObject:object atIndex:index];
     }
 }
 

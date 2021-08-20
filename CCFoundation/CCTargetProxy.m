@@ -11,13 +11,15 @@
 @property (nonatomic,weak,readonly) id target;
 @end
 @implementation CCTargetProxy
++(instancetype)proxyWithTarget:(id)target{
+    return [[self alloc] initWithTarget:target];
+}
+
 -(instancetype)initWithTarget:(id)target{
     _target = target;
     return self;
 }
-+(instancetype)proxyWithTarget:(id)target{
-    return [[self alloc] initWithTarget:target];
-}
+
 - (void)forwardInvocation:(NSInvocation *)invocation{
     SEL sel = [invocation selector];
     if([self.target respondsToSelector:sel]){

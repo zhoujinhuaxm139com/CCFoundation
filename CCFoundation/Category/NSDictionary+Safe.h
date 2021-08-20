@@ -1,16 +1,16 @@
 //
-//  CCNavigationControllerIMP.h
+//  NSDictionary+Safe.h
 //  CCFoundation
 //
-//  Created by zjh on 2021/7/21.
+//  Created by zjh on 2021/8/19.
 //  Copyright © 2021 zjh. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "CCNavigationProtocol.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CCNavigationControllerIMP : NSObject
+@interface NSDictionary (Safe)
 
 @end
 

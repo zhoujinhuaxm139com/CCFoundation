@@ -11,8 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CCViewController : UIViewController<CCNavgationBarAppearnce>
-@property (nonatomic, assign) BOOL hiddenCCNavgationBar;
-@property (nonatomic, assign) BOOL sideslip;
+@property (nonatomic, assign) BOOL CCHiddenNavgationBar;
+@property (nonatomic, assign) BOOL CCSideslip;
+@property (nonatomic, strong) UIColor *CCBarTintColor;
+@property (nonatomic, strong) UIColor *CCTintColor;
+
 @end
 
 NS_ASSUME_NONNULL_END

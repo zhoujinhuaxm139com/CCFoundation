@@ -10,8 +10,10 @@
 #define CCNavigationProtocol_h
 #import <UIKit/UIKit.h>
 @protocol CCNavgationBarAppearnce <NSObject>
-@property (nonatomic, assign) BOOL hiddenCCNavgationBar;
-@property (nonatomic, assign) BOOL sideslip;
+@property (nonatomic, assign) BOOL CCHiddenNavgationBar;
+@property (nonatomic, assign) BOOL CCSideslip;
+@property (nonatomic, strong) UIColor * _Nullable CCBarTintColor;
+@property (nonatomic, strong) UIColor * _Nullable CCTintColor;
 @end
 @protocol CCNavgationAnimation <NSObject>
 -(nullable id<UIViewControllerAnimatedTransitioning>)animationControllerForOperationPush;
