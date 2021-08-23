@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2463A04626CE558500378A6B /* NSDictionary+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 2463A04426CE558500378A6B /* NSDictionary+Safe.h */; };
+		24337B5B26D3A5AB00A63473 /* CCColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 24337B5126D3A5AA00A63473 /* CCColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24337B5C26D3A5AB00A63473 /* CCRingTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 24337B5226D3A5AA00A63473 /* CCRingTrack.m */; };
+		24337B5D26D3A5AB00A63473 /* CCTrackProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 24337B5326D3A5AB00A63473 /* CCTrackProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24337B5E26D3A5AB00A63473 /* CCGradientRingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 24337B5426D3A5AB00A63473 /* CCGradientRingLayer.m */; };
+		24337B5F26D3A5AB00A63473 /* CCGradientRingLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 24337B5526D3A5AB00A63473 /* CCGradientRingLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24337B6026D3A5AB00A63473 /* CCColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 24337B5626D3A5AB00A63473 /* CCColorPicker.m */; };
+		24337B6126D3A5AB00A63473 /* CCTrackProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 24337B5726D3A5AB00A63473 /* CCTrackProtocol.m */; };
+		24337B6226D3A5AB00A63473 /* CCRingTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 24337B5826D3A5AB00A63473 /* CCRingTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24337B6326D3A5AB00A63473 /* CCCircleTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 24337B5926D3A5AB00A63473 /* CCCircleTrack.m */; };
+		24337B6426D3A5AB00A63473 /* CCCircleTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 24337B5A26D3A5AB00A63473 /* CCCircleTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2463A04626CE558500378A6B /* NSDictionary+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 2463A04426CE558500378A6B /* NSDictionary+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2463A04726CE558500378A6B /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2463A04526CE558500378A6B /* NSDictionary+Safe.m */; };
 		246DAE9426A1378100E9A27B /* CCFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246DAE8A26A1378100E9A27B /* CCFoundation.framework */; };
 		246DAE9926A1378100E9A27B /* CCFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 246DAE9826A1378100E9A27B /* CCFoundationTests.m */; };
@@ -18,11 +28,11 @@
 		246DAEB026A1390300E9A27B /* NSArray+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 246DAEAE26A1390300E9A27B /* NSArray+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		246DAEB326A13A2E00E9A27B /* NSObject+Swizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 246DAEB126A13A2E00E9A27B /* NSObject+Swizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		246DAEB426A13A2E00E9A27B /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 246DAEB226A13A2E00E9A27B /* NSObject+Swizzle.m */; };
-		246FF12226A7E1CF009194C8 /* CCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 246FF12026A7E1CF009194C8 /* CCViewController.h */; };
+		246FF12226A7E1CF009194C8 /* CCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 246FF12026A7E1CF009194C8 /* CCViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		246FF12326A7E1CF009194C8 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246FF12126A7E1CF009194C8 /* CCViewController.m */; };
-		246FF12626A7E1F5009194C8 /* CCNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 246FF12426A7E1F5009194C8 /* CCNavigationController.h */; };
+		246FF12626A7E1F5009194C8 /* CCNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 246FF12426A7E1F5009194C8 /* CCNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		246FF12726A7E1F5009194C8 /* CCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246FF12526A7E1F5009194C8 /* CCNavigationController.m */; };
-		2488011B26A81F450080EA51 /* CCNavigationControllerIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 2488011926A81F450080EA51 /* CCNavigationControllerIMP.h */; };
+		2488011B26A81F450080EA51 /* CCNavigationControllerIMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 2488011926A81F450080EA51 /* CCNavigationControllerIMP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2488011C26A81F450080EA51 /* CCNavigationControllerIMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2488011A26A81F450080EA51 /* CCNavigationControllerIMP.m */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24337B5126D3A5AA00A63473 /* CCColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCColorPicker.h; sourceTree = "<group>"; };
+		24337B5226D3A5AA00A63473 /* CCRingTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRingTrack.m; sourceTree = "<group>"; };
+		24337B5326D3A5AB00A63473 /* CCTrackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTrackProtocol.h; sourceTree = "<group>"; };
+		24337B5426D3A5AB00A63473 /* CCGradientRingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCGradientRingLayer.m; sourceTree = "<group>"; };
+		24337B5526D3A5AB00A63473 /* CCGradientRingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGradientRingLayer.h; sourceTree = "<group>"; };
+		24337B5626D3A5AB00A63473 /* CCColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCColorPicker.m; sourceTree = "<group>"; };
+		24337B5726D3A5AB00A63473 /* CCTrackProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTrackProtocol.m; sourceTree = "<group>"; };
+		24337B5826D3A5AB00A63473 /* CCRingTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRingTrack.h; sourceTree = "<group>"; };
+		24337B5926D3A5AB00A63473 /* CCCircleTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCircleTrack.m; sourceTree = "<group>"; };
+		24337B5A26D3A5AB00A63473 /* CCCircleTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCircleTrack.h; sourceTree = "<group>"; };
 		2463A04426CE558500378A6B /* NSDictionary+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
 		2463A04526CE558500378A6B /* NSDictionary+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
 		246DAE8A26A1378100E9A27B /* CCFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +99,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24337B4F26D3A56A00A63473 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24337B5026D3A58900A63473 /* ColorPicker */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24337B5026D3A58900A63473 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				24337B5A26D3A5AB00A63473 /* CCCircleTrack.h */,
+				24337B5926D3A5AB00A63473 /* CCCircleTrack.m */,
+				24337B5126D3A5AA00A63473 /* CCColorPicker.h */,
+				24337B5626D3A5AB00A63473 /* CCColorPicker.m */,
+				24337B5526D3A5AB00A63473 /* CCGradientRingLayer.h */,
+				24337B5426D3A5AB00A63473 /* CCGradientRingLayer.m */,
+				24337B5826D3A5AB00A63473 /* CCRingTrack.h */,
+				24337B5226D3A5AA00A63473 /* CCRingTrack.m */,
+				24337B5326D3A5AB00A63473 /* CCTrackProtocol.h */,
+				24337B5726D3A5AB00A63473 /* CCTrackProtocol.m */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		24337B6726D3A9E200A63473 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				246DAEA426A1381900E9A27B /* CCTargetProxy.h */,
+				246DAEA526A1381900E9A27B /* CCTargetProxy.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
 		246DAE8026A1378100E9A27B = {
 			isa = PBXGroup;
 			children = (
@@ -100,10 +154,9 @@
 		246DAE8C26A1378100E9A27B /* CCFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				24337B6726D3A9E200A63473 /* Proxy */,
 				246FF11F26A7E1A8009194C8 /* UIKit */,
 				246DAEAC26A1387400E9A27B /* Category */,
-				246DAEA426A1381900E9A27B /* CCTargetProxy.h */,
-				246DAEA526A1381900E9A27B /* CCTargetProxy.m */,
 				246DAE8D26A1378100E9A27B /* CCFoundation.h */,
 				246DAE8E26A1378100E9A27B /* Info.plist */,
 			);
@@ -135,6 +188,7 @@
 		246FF11F26A7E1A8009194C8 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				24337B4F26D3A56A00A63473 /* View */,
 				2488012026A82A1F0080EA51 /* Protocol */,
 				2488011F26A829F80080EA51 /* ViewController */,
 				2488011E26A829E80080EA51 /* NavigationController */,
@@ -178,12 +232,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				246FF12226A7E1CF009194C8 /* CCViewController.h in Headers */,
-				246DAEA626A1381900E9A27B /* CCTargetProxy.h in Headers */,
+				24337B5F26D3A5AB00A63473 /* CCGradientRingLayer.h in Headers */,
 				2463A04626CE558500378A6B /* NSDictionary+Safe.h in Headers */,
 				2488011B26A81F450080EA51 /* CCNavigationControllerIMP.h in Headers */,
+				24337B6426D3A5AB00A63473 /* CCCircleTrack.h in Headers */,
+				24337B5D26D3A5AB00A63473 /* CCTrackProtocol.h in Headers */,
+				24337B6226D3A5AB00A63473 /* CCRingTrack.h in Headers */,
+				246FF12626A7E1F5009194C8 /* CCNavigationController.h in Headers */,
+				24337B5B26D3A5AB00A63473 /* CCColorPicker.h in Headers */,
+				246DAEA626A1381900E9A27B /* CCTargetProxy.h in Headers */,
 				246DAEB026A1390300E9A27B /* NSArray+Safe.h in Headers */,
 				246DAE9B26A1378100E9A27B /* CCFoundation.h in Headers */,
-				246FF12626A7E1F5009194C8 /* CCNavigationController.h in Headers */,
 				246DAEB326A13A2E00E9A27B /* NSObject+Swizzle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,10 +347,15 @@
 				2488011C26A81F450080EA51 /* CCNavigationControllerIMP.m in Sources */,
 				246DAEB426A13A2E00E9A27B /* NSObject+Swizzle.m in Sources */,
 				246DAEA726A1381900E9A27B /* CCTargetProxy.m in Sources */,
+				24337B5C26D3A5AB00A63473 /* CCRingTrack.m in Sources */,
 				246FF12326A7E1CF009194C8 /* CCViewController.m in Sources */,
+				24337B6126D3A5AB00A63473 /* CCTrackProtocol.m in Sources */,
 				2463A04726CE558500378A6B /* NSDictionary+Safe.m in Sources */,
+				24337B6326D3A5AB00A63473 /* CCCircleTrack.m in Sources */,
 				246DAEAF26A1390300E9A27B /* NSArray+Safe.m in Sources */,
+				24337B5E26D3A5AB00A63473 /* CCGradientRingLayer.m in Sources */,
 				246FF12726A7E1F5009194C8 /* CCNavigationController.m in Sources */,
+				24337B6026D3A5AB00A63473 /* CCColorPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
