@@ -202,6 +202,8 @@
 		2408AAED26D611E600C92981 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				2408AAFA26D611E600C92981 /* CCTrackProtocol.h */,
+				2408AAF526D611E600C92981 /* CCTrackProtocol.m */,
 				2408AAEE26D611E600C92981 /* CCNavigationProtocol.h */,
 			);
 			path = Protocol;
@@ -218,8 +220,6 @@
 				2408AAF426D611E600C92981 /* CCGradientRingLayer.m */,
 				2408AAF226D611E600C92981 /* CCRingTrack.h */,
 				2408AAF626D611E600C92981 /* CCRingTrack.m */,
-				2408AAFA26D611E600C92981 /* CCTrackProtocol.h */,
-				2408AAF526D611E600C92981 /* CCTrackProtocol.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -236,12 +236,12 @@
 		2408AAFE26D611E600C92981 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				2408AAFF26D611E600C92981 /* NSObject+Swizzle.m */,
-				2408AB0026D611E600C92981 /* NSDictionary+Safe.h */,
 				2408AB0126D611E600C92981 /* NSArray+Safe.h */,
-				2408AB0226D611E600C92981 /* NSObject+Swizzle.h */,
-				2408AB0326D611E600C92981 /* NSDictionary+Safe.m */,
 				2408AB0426D611E600C92981 /* NSArray+Safe.m */,
+				2408AB0026D611E600C92981 /* NSDictionary+Safe.h */,
+				2408AB0326D611E600C92981 /* NSDictionary+Safe.m */,
+				2408AB0226D611E600C92981 /* NSObject+Swizzle.h */,
+				2408AAFF26D611E600C92981 /* NSObject+Swizzle.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
