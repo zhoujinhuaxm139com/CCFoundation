@@ -8,8 +8,8 @@
 
 #import "CCNavigationController.h"
 #import "CCNavigationControllerIMP.h"
-@interface CCNavigationController()
-
+@interface CCNavigationController()<UIGestureRecognizerDelegate>
+@property (nonatomic,strong) CCNavigationControllerIMP *navigationControllerIMP;
 @end
 
 @implementation CCNavigationController
@@ -47,13 +47,15 @@
     return self;
 }
 -(void)setUp{
-    self.delegate = (id<UINavigationControllerDelegate>)[[CCNavigationControllerIMP alloc] init];
+    self.navigationControllerIMP = [[CCNavigationControllerIMP alloc] init];
+    self.delegate = (id<UINavigationControllerDelegate>)self.navigationControllerIMP;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.interactivePopGestureRecognizer.delegate = self;
     // Do any additional setup after loading the view.
 }
+
 - (void)pushViewController:(UIViewController *)viewController
                   animated:(BOOL)animated
 {
