@@ -15,7 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL CCSideslip;
 @property (nonatomic, strong) UIColor *CCBarTintColor;
 @property (nonatomic, strong) UIColor *CCTintColor;
-
 @end
 
 NS_ASSUME_NONNULL_END
