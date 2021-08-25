@@ -20,11 +20,6 @@ Pod::Spec.new do |spec|
     ss.source_files = 'CCFoundation/Category/*.{h,m}'
   end
   
-  spec.subspec 'Proxy' do |ss|
-    ss.ios.deployment_target = '9.0'
-    ss.source_files = 'CCFoundation/Proxy/*.{h,m}'
-  end
-  
   spec.subspec 'UIKit' do |ss|
     ss.ios.deployment_target = '9.0'
     ss.source_files = 'CCFoundation/UIKit/**/*.{h,m}'
