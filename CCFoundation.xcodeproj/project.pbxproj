@@ -91,6 +91,7 @@
 		2408AB0426D611E600C92981 /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
 		2408AB0626D611E600C92981 /* CCTargetProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTargetProxy.h; sourceTree = "<group>"; };
 		2408AB0726D611E600C92981 /* CCTargetProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTargetProxy.m; sourceTree = "<group>"; };
+		2408AB1426D6448E00C92981 /* CCFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCFoundation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +156,7 @@
 				2408AABF26D6118900C92981 /* LaunchScreen.storyboard */,
 				2408AAC226D6118900C92981 /* Info.plist */,
 				2408AAC326D6118900C92981 /* main.m */,
+				2408AB1426D6448E00C92981 /* CCFoundation.h */,
 			);
 			path = CCFoundation;
 			sourceTree = "<group>";

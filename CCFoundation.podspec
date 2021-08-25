@@ -13,16 +13,20 @@ Pod::Spec.new do |spec|
   spec.author       = { "周金华" => "zhoujinhua_xm@139.com" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/zhoujinhuaxm139com/CCFoundation.git", :tag => spec.version }
-  
+  spec.source_files = 'CCFoundation/CCFoundation.h'
+
   spec.subspec 'Category' do |ss|
+    ss.ios.deployment_target = '9.0'
     ss.source_files = 'CCFoundation/Category/*.{h,m}'
   end
   
   spec.subspec 'Proxy' do |ss|
+    ss.ios.deployment_target = '9.0'
     ss.source_files = 'CCFoundation/Proxy/*.{h,m}'
   end
   
   spec.subspec 'UIKit' do |ss|
+    ss.ios.deployment_target = '9.0'
     ss.source_files = 'CCFoundation/UIKit/**/*.{h,m}'
   end
 end
