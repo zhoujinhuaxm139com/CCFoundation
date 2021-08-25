@@ -7,7 +7,7 @@
 //
 
 #import "CCNavigationControllerIMP.h"
-@interface CCNavigationControllerIMP()<UINavigationControllerDelegate>
+@interface CCNavigationControllerIMP()
 
 @end
 

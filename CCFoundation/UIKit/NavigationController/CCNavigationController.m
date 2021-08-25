@@ -9,7 +9,7 @@
 #import "CCNavigationController.h"
 #import "CCNavigationControllerIMP.h"
 @interface CCNavigationController()
-@property (nonatomic, strong) CCNavigationControllerIMP *navigationControllerIMP;
+
 @end
 
 @implementation CCNavigationController
@@ -47,8 +47,7 @@
     return self;
 }
 -(void)setUp{
-    self.navigationControllerIMP = [[CCNavigationControllerIMP alloc] init];
-    self.delegate = (id<UINavigationControllerDelegate>)self.navigationControllerIMP;
+    self.delegate = (id<UINavigationControllerDelegate>)[[CCNavigationControllerIMP alloc] init];
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
